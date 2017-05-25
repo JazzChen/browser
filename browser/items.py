@@ -10,12 +10,12 @@ from scrapy.item import Item, Field
 
 
 class BrowserItem(scrapy.Item):
-    account=Field()
-    deviceid=Field()
-    url=Field()
-    title=Field()
-    idate=Field()
-    logtime=Field()
-    importday=Field()
-    html=Field()
-    text=Field()
+    account = Field()
+    deviceid = Field()
+    url = Field()
+    title = Field()
+    idate = Field()
+    logtime = Field()
+    importday = Field()
+    html = Field()
+    text = Field()
